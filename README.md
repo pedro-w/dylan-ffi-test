@@ -11,8 +11,8 @@ opendylan build. Test `c-struct-test` gives this output:
 
       <maximal> struct size: [152 (from expression "struct-maximal-size()") and 0 (from expression "size-of(<maximal>)") are not =.]
 
-The size of a structure (as determined by `size-of(<class>)`is not
-always calculated. It seems not to be if called from Testworks. If
+The size of a structure (as determined by `size-of(<class>)`) is not
+always calculated. It seems not to be, if called from Testworks. If
 called 'directly' it is OK.
 
 The size calculation is done at compile time, so the output of the C
